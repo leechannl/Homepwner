@@ -19,6 +19,9 @@
 		8DAB42161943497C006ED4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAB41FE1943497B006ED4DB /* UIKit.framework */; };
 		8DAB421E1943497C006ED4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB421C1943497C006ED4DB /* InfoPlist.strings */; };
 		8DAB42201943497C006ED4DB /* HomepwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB421F1943497C006ED4DB /* HomepwnerTests.m */; };
+		8DF36D6619435C70009C64E6 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF36D6519435C70009C64E6 /* BNRItemsViewController.m */; };
+		8DF36D6919436053009C64E6 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF36D6819436053009C64E6 /* BNRItem.m */; };
+		8DF36D6C19436DF1009C64E6 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF36D6B19436DF1009C64E6 /* BNRItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		8DAB421B1943497C006ED4DB /* HomepwnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomepwnerTests-Info.plist"; sourceTree = "<group>"; };
 		8DAB421D1943497C006ED4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DAB421F1943497C006ED4DB /* HomepwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerTests.m; sourceTree = "<group>"; };
+		8DF36D6419435C70009C64E6 /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		8DF36D6519435C70009C64E6 /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
+		8DF36D6719436053009C64E6 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		8DF36D6819436053009C64E6 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		8DF36D6A19436DF1009C64E6 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		8DF36D6B19436DF1009C64E6 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				8DAB42091943497B006ED4DB /* BNRAppDelegate.h */,
 				8DAB420A1943497B006ED4DB /* BNRAppDelegate.m */,
+				8DF36D6419435C70009C64E6 /* BNRItemsViewController.h */,
+				8DF36D6719436053009C64E6 /* BNRItem.h */,
+				8DF36D6A19436DF1009C64E6 /* BNRItemStore.h */,
+				8DF36D6B19436DF1009C64E6 /* BNRItemStore.m */,
+				8DF36D6819436053009C64E6 /* BNRItem.m */,
+				8DF36D6519435C70009C64E6 /* BNRItemsViewController.m */,
 				8DAB420C1943497B006ED4DB /* Images.xcassets */,
 				8DAB42011943497B006ED4DB /* Supporting Files */,
 			);
@@ -240,6 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF36D6C19436DF1009C64E6 /* BNRItemStore.m in Sources */,
+				8DF36D6619435C70009C64E6 /* BNRItemsViewController.m in Sources */,
+				8DF36D6919436053009C64E6 /* BNRItem.m in Sources */,
 				8DAB42071943497B006ED4DB /* main.m in Sources */,
 				8DAB420B1943497B006ED4DB /* BNRAppDelegate.m in Sources */,
 			);
@@ -438,6 +456,7 @@
 				8DAB42251943497C006ED4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DAB42261943497C006ED4DB /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				8DAB42281943497C006ED4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
